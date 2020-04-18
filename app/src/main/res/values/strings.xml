@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">TourCanada</string>
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="database_name">tourism-cloud5409</string>
+    <string name="enter_verification_code">Enter Verification code</string>
+    <string name="code">Code</string>
+    <string name="submit">Submit</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="create_account">No account yet? Create one!</string>
+    <string name="name">Name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="re_enter_password">Re-enter Password</string>
+    <string name="create_account_str">Create Account</string>
+    <string name="already_a_member_login">Already a member? Login</string>
+    <string name="signout">Log out</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="dummy_location">Dummy Location</string>
+    <string name="dummy_text">dummy text</string>
+    <string name="search_str">Search</string>
+</resources>

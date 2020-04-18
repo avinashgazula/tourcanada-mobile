@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "898615069795",
+    "firebase_url": "https://tourism-cloud5409.firebaseio.com",
+    "project_id": "tourism-cloud5409",
+    "storage_bucket": "tourism-cloud5409.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898615069795:android:8dad58ddae49dcc71c7c56",
+        "android_client_info": {
+          "package_name": "com.dal.tourism"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898615069795-srk2efqu6afbmmsuul9a1jqnkt43e9hr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dal.tourism",
+            "certificate_hash": "12185d21e1754e90e07f57799decc7820e0c7205"
+          }
+        },
+        {
+          "client_id": "898615069795-7ibq90hhd01uqictarf24bm9tqnblqnk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCssmQQ4tNwK0CpEFT1hAE61Y0FOJrmdRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898615069795-7ibq90hhd01uqictarf24bm9tqnblqnk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

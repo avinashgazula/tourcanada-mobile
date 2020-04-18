@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".TicketConfirmationActivity">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/app_logo"/>
+
+    <TextView
+        android:id="@+id/txt_tickets_purchased"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tickets Purchased!"
+        android:layout_below="@id/app_logo"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:id="@+id/qrCode"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/txt_tickets_purchased"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/txt_scan_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan QR Code at the destination to enter!"
+        android:textColor="@color/colorPrimary"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/qrCode"
+        android:layout_marginTop="20dp"/>
+
+    <TableLayout
+        android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_scan_code"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+        <TableRow>
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/colorPrimary"
+                android:text="Name: "/>
+
+            <TextView
+                android:id="@+id/txt_name_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/txt_name"
+                android:text="@string/dummy_text"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/txt_email"
+                android:layout_width="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_name"
+                android:text="Email: "/>
+
+            <TextView
+                android:id="@+id/txt_email_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="14sp"
+                android:layout_toRightOf="@id/txt_email"
+                android:layout_below="@+id/txt_name"
+                android:text="@string/dummy_text"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/txt_destination"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_email"
+                android:text="Destination: "
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/txt_destination_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="14sp"
+                android:layout_toRightOf="@id/txt_destination"
+                android:layout_below="@+id/txt_email"
+                android:text="@string/dummy_text"/>
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/txt_nice_trip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Have a nice trip!"
+        android:textColor="@color/colorPrimary"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/layout"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_nice_trip"
+        android:layout_centerHorizontal="true"
+        android:text="Home"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white"/>
+
+
+
+</RelativeLayout>
